@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="survey.css">
+    <link href="//db.onlinewebfonts.com/c/bd9805cba4fdbd10e6f9d097dab9225f?family=Chalkduster" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-form-Project2</title>
+</head>
+<body>
+        <div class="navbar">
+            <img src="https://pbs.twimg.com/profile_images/709677366600081408/8Xd974dB_400x400.jpg" class="logo">
+            <ul> 
+                <li><a href="https://pepperlunch.id/#home">Home</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Pepper_Lunch">About</a></li>
+                <li><a href="https://pepperlunch.id/#menu">Menu</a></li>
+                <li><a href="https://pepperlunch.id/#contact">Contact us</a></li>
+                <li><a href="https://pepperlunch.id/category/news-and-promo/">News & Promo</a></li>
+            </ul>
+        </div> 
+        <h1 id="title">SIZZLE UP YOUR EXPERIENCE</h1>
+        <p id="description">Help us to sizzle you better.:)</p>
+
+        <form id="survey-form">
+            <label for="name" id="name-label">*Name:</label>
+            <input id="name" text="name" type="text" placeholder="Tristan Yves Lim" class="form-inputs" required><br>
+
+            <label for="email" id="email-label">*Email:</label>
+            <input type="email" name="email" id="email" placeholder="tristanlim@Gmail.com" class="form-inputs" required> <br>
+
+            <label for="Age"id="number-label">*Age:</label>
+            <input type="number" name="number" id="number" min="12" max="69" class="form-inputs"  required> <br> <br>
+
+            <label for="dropdown" class="visit">Was this your first visit to our restaurant?</label>
+            <select id="dropdown" class="form-inputs" >
+            <option value="Yes">Yes</option>
+            <option value="No">No</option> </select><br>
+
+            <section>
+
+            <p class="service"><b>long did it take for your server to do the following:</b></p>
+
+           <label for="service1" class="service1">Greet you?</label><br>
+            <input type="radio" name="service1" id="service1" value="Too Quick">
+            <label for="service">Too Quick</label>
+
+            <input type="radio" name="service1" id="service1" value="Reasonable">
+            <label for="service">Reasonable</label>
+
+            <input type="radio" name="service1" id="service1" value="Too Long">
+            <label for="service">Too Long</label><br>
+
+            <label for="service2" class="service2">Take your meal order?</label><br>
+                <input type="radio" name="service2" id="service2" value="Too Quick">
+                <label for="service2">Too Quick</label>
+    
+                <input type="radio" name="service2" id="service2" value="Reasonable">
+                <label for="service2">Reasonable</label>
+    
+                <input type="radio" name="service2" id="service2" value="Too Long">
+                <label for="service2">Too Long</label><br>
+
+                <label for="service3" class="service3">Bring your food?</label>
+                <input type="radio" name="service3" id="service3" value="Too Quick">
+                <label for="service3">Too Quick</label><br>
+    
+                <input type="radio" name="service3" id="service3" value="Reasonable">
+                <label for="service3">Reasonable</label>
+    
+                <input type="radio" name="service3" id="service3" value="Too Long">
+                <label for="service3">Too Long</label><br>
+            </section>
+
+            <section>
+                <p><b>Please rate the following items on a scale of 1 to 5, with 5 being best and 1 being worst.</b></p> 
+
+                <label for="rating1" class="rating1">Wait time to be seated</label><br>
+                <input id="rating1" type="checkbox" name="rating1" value="Extremely Good">
+                <label for="rating1">5-Extremely Good</label><br>
+        
+                <input id="rating1" type="checkbox" name="review" value="Very Good">
+                <label for="rating1">4-Very Good</label><br>
+        
+                <input id="rating1" type="checkbox" name="review" value="3-Good">
+                <label for="rating1">3-Good</label><br>
+        
+                <input id="rating1" type="checkbox" name="review" value="2-Not Bad">
+                <label for="rating1">2-Not Bad</label><br>
+        
+                <input id="rating1" type="checkbox" name="review" value="1-Bad">
+                <label for="rating1">1-Bad</label><br>
+
+
+                <label for="rating2" class="rating2">Quality of your meal</label><br>
+                <input id="rating2" type="checkbox" name="rating2" value="Extremely Good">
+                <label for="rating2">5-Extremely Good</label><br>
+        
+                <input id="rating2" type="checkbox" name="rating2" value="Very Good">
+                <label for="rating2">4-Very Good</label><br>
+        
+                <input id="rating2" type="checkbox" name="rating2" value="3-Good">
+                <label for="rating2">3-Good</label><br>
+        
+                <input id="rating2" type="checkbox" name="rating2" value="2-Not Bad">
+                <label for="rating2">2-Not Bad</label><br>
+        
+                <input id="rating2" type="checkbox" name="rating2" value="1-Bad">
+                <label for="rating2">1-Bad</label><br>
+
+                <label for="rating3" class="rating3">Cleanliness of the restaurant</label><br>
+                <input id="rating3" type="checkbox" name="rating3" value="Extremely Good">
+                <label for="rating3">5-Extremely Good</label><br>
+        
+                <input id="rating3" type="checkbox" name="rating3" value="Very Good">
+                <label for="rating3">4-Very Good</label><br>
+        
+                <input id="rating2" type="checkbox" name="rating3" value="3-Good">
+                <label for="rating3">3-Good</label><br>
+        
+                <input id="rating3" type="checkbox" name="rating3" value="2-Not Bad">
+                <label for="rating3">2-Not Bad</label><br>
+        
+                <input id="rating3" type="checkbox" name="rating3" value="1-Bad">
+                <label for="rating3">1-Bad</label><br><br>
+            </section>
+
+            <section>
+                <label for="text-area" class="text-area"><b> <label for="text-area"><b>Do you have any additional comments, questions, or concerns you would like to
+                    share?<b></label><br>
+
+                        <textarea name="feedback" id="text-area" cols="30" rows="10"></textarea> <br><br>
+                    </section>
+
+                        <input id="submit" type="submit" value="submit feedback" class="submit-button">
+
+                        <div class="marketing">
+                            <p>
+                                You have a free ₱10,000 reward for completing this survey! 
+                            </p>
+                            <div class="accept">
+                                <input 
+                                class="marketing-accept" type="checkbox" value="marketing-accept" />
+                                <label for="marketing-accept">
+                                            Please check this box if you agree to receiving emails from Pepper Lunch PH.
+                                        </label>
+                            </div>
+                        </div>
+        </form>
+
+
+</body>
+</html>
