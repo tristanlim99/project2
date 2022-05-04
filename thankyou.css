@@ -1,0 +1,26 @@
+.thanks{
+    font-size: 50px;
+    text-align: center;
+}
+.complete{
+    color: #FFDB58;
+    text-align: center ;
+}
+.owe{
+    color: bisque;
+    text-align: center;
+}
+.yay{
+    margin-inline: 10%;
+    border: 10%;
+    border-style: solid;
+    padding: 3%;
+    border-radius: 2%;
+    background-color: black;
+}
+body{
+    background-image: url(https://pepperlunch.id/wp-content/themes/pepperlunch/images/PepperLunch_Background.png);
+    color: bisque;
+    font-family: chalkduster;
+    line-height: 2;
+}
