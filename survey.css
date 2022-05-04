@@ -120,3 +120,23 @@ form{
         border: 1px solid black;
         border-radius: 0.25rem ;
     }
+    .thanks{
+        font-size: 50px;
+        text-align: center;
+    }
+    .complete{
+        color: #FFDB58;
+        text-align: center ;
+    }
+    .owe{
+        color: bisque;
+        text-align: center;
+    }
+    .yay{
+        margin-inline: 10%;
+        border: 10%;
+        border-style: solid;
+        padding: 3%;
+        border-radius: 2%;
+        background-color: black;
+    }
