@@ -7,4 +7,4 @@ Just a sample Email survey form for a restaurant
 - Javascript
 
 ### Live Demo
-https://tristanlim99.github.io/project2/
+ https://tristanlim99.github.io/restaurant-survey-form/
