@@ -1,4 +1,4 @@
-## Email-Survey-Form with Thanbk you page
+## Email-Survey-Form with Thank you page
 Just a sample Email survey form for a restaurant
 
 ### Tech Stack
